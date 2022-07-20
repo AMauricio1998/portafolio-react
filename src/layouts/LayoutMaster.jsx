@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Outlet, Link } from 'react-router-dom';
+import avatar from '../assets/avatar.jpeg';
 
 const LayoutMaster = () => {
 
@@ -18,7 +19,7 @@ const LayoutMaster = () => {
         <div className='md:h-screen md:col-span-1 sm:h-80'>
         <div className="rounded-r bg-gray-900 xl:hidden flex justify-between w-full p-6 items-center ">
                 <div className="flex justify-between  items-center space-x-3">
-                    <img className="rounded-full w-10 h-10" src="/src/assets/avatar.jpeg" alt="avatar"/>
+                    <img className="rounded-full w-10 h-10" src={avatar} alt="avatar"/>
                     <p className="text-2xl leading-6 text-white">Alan Mauricio</p>
                 </div>
                 <div aria-label="toggler" className="flex justify-center items-center">
@@ -42,7 +43,7 @@ const LayoutMaster = () => {
                 className={`${show ? 'translate-x-0' : '-translate-x-full'} xl:rounded-r transform  xl:translate-x-0  ease-in-out transition duration-500 flex justify-start items-start h-full w-full sm:w-54 bg-gray-900 flex-col`}
             >
                 <div className="hidden xl:flex justify-start p-6 items-center space-x-3">
-                    <img className="rounded-full h-9 w-9"  src="/src/assets/avatar.jpeg" alt="avatar"/>
+                    <img className="rounded-full h-9 w-9"  src={avatar} alt="avatar"/>
                     <p className="text-2xl leading-6 text-white">Alan Mauricio</p>
                 </div>
                 <div className="mt-6 flex flex-col justify-start items-center  pl-4 w-full border-gray-600 border-b space-y-3 pb-5 ">
@@ -90,7 +91,7 @@ const LayoutMaster = () => {
                     <div className="flex justify-between items-center w-full absolute bottom-2 left-2">
                         <div className="flex justify-center items-center  space-x-2">
                             <div>
-                                <img className="rounded-full w-10 h-10" src="/src/assets/avatar.jpeg" alt="avatar"/>
+                                <img className="rounded-full w-10 h-10" src={avatar} alt="avatar"/>
                             </div>
                             <div className="flex justify-start flex-col items-start">
                                 <p className="cursor-pointer text-sm leading-5 text-white">Alan Mauricio Reyes</p>
