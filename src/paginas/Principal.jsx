@@ -1,4 +1,5 @@
 import React from 'react'
+import web from '../assets/web.png'
 
 const Principal = () => {
   return (
@@ -20,7 +21,7 @@ const Principal = () => {
             </p>
         </div>
         <div className='col-span-2 mt-40 flex justify-center'>
-            <img src="/src/assets/web.png" alt="web" style={{width: '500px', height: '400px'}} />
+            <img src={web} alt="web" style={{width: '500px', height: '400px'}} />
         </div>
     </div>
   )

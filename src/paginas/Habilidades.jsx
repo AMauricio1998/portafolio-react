@@ -1,16 +1,22 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+import React from 'react';
+import js from '../assets/icons8-javascript.gif';
+import react from '../assets/icons8-reaccionar-nativo-48.png';
+import node from '../assets/icons8-node-js-48.png';
+import sql from '../assets/icons8-logo-de-mysql-48.png';
+import tailwind from '../assets/icons8-tailwindcss-48.png';
+import laravel from '../assets/icons8-laravel-50.png';
 
 const Habilidades = () => {
   return (
     <div className='grid grid-cols-4 gap-2'>
         <div className='col-start-1 col-end-5 mx-5 mt-8 flex justify-between'>
-            <img src="/src/assets/icons8-reaccionar-nativo-48.png" alt=""/>
-            <img src="/src/assets/icons8-logo-de-mysql-48.png" alt=""/>
-            <img src="/src/assets/icons8-laravel-50.png" alt=""/>
-            <img src="/src/assets/icons8-tailwindcss-48.png" alt=""/>
-            <img src="/src/assets/icons8-javascript.gif" alt="" style={{ height: '48px', }}/>
-            <img src="/src/assets/icons8-node-js-48.png" alt=""/>
+            <img src={react} alt=""/>
+            <img src={sql} alt=""/>
+            <img src={laravel} alt=""/>
+            <img src={tailwind} alt=""/>
+            <img src={js} alt="" style={{ height: '48px', }}/>
+            <img src={node} alt=""/>
         </div>
         <div className='col-start-1 col-span-2 md:mt-16'>
             <h4 className='font-bold font-mono text-center text-cyan-300 text-3xl'>Front-End</h4>
