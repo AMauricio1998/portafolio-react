@@ -4,6 +4,7 @@ import LayoutMaster from './layouts/LayoutMaster'
 import Curriculum from './paginas/Curriculum'
 import Habilidades from './paginas/Habilidades'
 import Principal from './paginas/Principal'
+import Proyectos from './paginas/Proyectos'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Principal />}/>
           <Route path='habilidades' element={ <Habilidades /> }/>
           <Route path='curriculum' element={ <Curriculum /> }/>
+          <Route path='proyectos' element={ <Proyectos /> }/>
         </Route>
       </Routes>
     </BrowserRouter>

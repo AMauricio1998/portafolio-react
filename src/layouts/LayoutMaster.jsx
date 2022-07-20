@@ -78,12 +78,12 @@ const LayoutMaster = () => {
                             </svg>
                             <p className="text-base leading-4  ">Curriculum</p>
                         </Link>
-                        <button className="flex justify-start items-center space-x-6 hover:text-white focus:bg-gray-700 focus:text-white hover:bg-gray-700 text-gray-400 rounded px-3 py-2 w-full md:w-52">
+                        <Link to={'proyectos'} className="flex justify-start items-center space-x-6 hover:text-white focus:bg-gray-700 focus:text-white hover:bg-gray-700 text-gray-400 rounded px-3 py-2 w-full md:w-52">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                               <path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
                             </svg>
-                            <p className="text-base leading-4  ">Portafolio</p>
-                        </button>
+                            <p className="text-base leading-4  ">Proyectos</p>
+                        </Link>
                     </div>
                 </div>
 
